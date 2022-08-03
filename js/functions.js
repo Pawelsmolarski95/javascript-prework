@@ -16,4 +16,11 @@ printMessage('Zagrałem kamień! Jeśli Twój ruch to papier, to wygrywasz!');
 // variables
 
 let computerMove = 'kamień';
-let playerMove = 'papier '
+let playerMove = 'papier ';
+
+printMessage('Zagrałem ' + computerMove + '! Jeśli Twój ruch to papier, to wygrywasz!');
+printMessage('Zagrałem ' + playerMove + '! Jeśli Twój ruch to nożyce, to wygrywasz!');
+
+
+
+// losowanie liczby 
