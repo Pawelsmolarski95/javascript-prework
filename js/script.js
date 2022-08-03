@@ -1,5 +1,9 @@
 
+
+
+
 //definiowanie funckcji
+
 function playGame(playerInput){
 
     function printMessage(msg){
@@ -57,7 +61,7 @@ function playGame(playerInput){
         }
     }
     //losowanie numeru przez komputer
-
+    
     let randomNumber = Math.floor(Math.random() * 3 + 1);
 
     console.log('Wylosowana liczba to: ' + randomNumber);
@@ -67,7 +71,8 @@ function playGame(playerInput){
     console.log(computerMove);
     
     clearMessages();
-
+    
+    
 
     // wybieranie numeru przez gracza
 
@@ -85,9 +90,9 @@ function playGame(playerInput){
     // wynik gry
 
 
-    let showResult = displayResult(playerMove, computerMove)
+    let showResult = displayResult(playerMove, computerMove);
 
-
+   
     printMessage(showResult);
 
 }
@@ -104,4 +109,4 @@ document.getElementById('play-scissors').addEventListener('click', function() {
     playGame(3)
 });
 
- 
+
