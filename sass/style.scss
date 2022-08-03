@@ -1,0 +1,50 @@
+body {
+    background-color: lightseagreen;
+    
+    height: 100vh;
+}
+
+h1 {
+    margin: 30px;
+    
+}
+
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 6rem;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+i {
+    font-size: 150px;
+    padding: 60px;
+    cursor: pointer;
+}
+
+.container {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.messages {
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
