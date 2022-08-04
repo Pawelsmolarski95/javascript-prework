@@ -28,19 +28,11 @@
               ||(argComputerMove == 'nożyce' && argPlayerMove == 'kamień')){
               printMessage('Ty wygrywasz!');
               playerScore++;
-              }else if(( argComputerMove == 'kamień' && argPlayerMove == 'kamień')
-              ||( argComputerMove == 'papier' && argPlayerMove == 'papier')
-              ||( argComputerMove == 'nożyce' && argPlayerMove == 'nożyce'))
-              {
+              }else if(argComputerMove == argPlayerMove) {
               printMessage('Remis!');
-              }else if (( argComputerMove == 'kamień' && argPlayerMove == 'nożyce')
-              ||(argComputerMove == 'papier' && argPlayerMove == 'nożyce')
-              ||(argComputerMove == 'nożyce' && argPlayerMove == 'papier'))
-              {
+              }else {
               printMessage('Ja wygrywam!');
               computerScore++;
-              }else {
-              printMessage ('Partia nierozegrana');
               }
           }
   
